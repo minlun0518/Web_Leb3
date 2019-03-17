@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="中文">
+<head> </head>  
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width , minimum-scale=1, maximum-scale=1" />
+    <title>在復健中架網站的魔法兔</title> 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107903574-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-107903574-1');
+</script>
+    <script type="text/javascript" src="/Assets/jQuery/jquery-2.1.4.min.js"> </script>
+    <script type="text/javascript" src="/Assets/js/encode.js"> </script>
+    <script>
+    <!--//--><![CDATA[//><!--
+    $("html").addClass("js");
+    $.fn.accordion.defaults.container = false;
+    $(function() {
+      $("#mm").accordion({initShow : "#current"});
+    });
+    //--><!]]>
+    </script>
+</head>
+<body>
+    <div class="blackbg"></div>
+    <div id="wrapper">
+        <div class="intor" stle ="padding-bottom:197PX;"> 
+		
+            
+        <div class="sq">
+            <div class="search_bar">
+                <div class="commnity">
+                    <a href="https://www.facebook.com/magictooth.tw/" title="臉書"><img src="/Assets/images/commnity_icon1.png" alt="魔法兔臉書" /></a>
+                    <a href="https://www.facebook.com/daytaiclinic/notifications/" title="臉書"><img src="/Assets/images/commnity_icon1.png" alt="復健科臉書" width="54" height="35" /></a>
+                </div>
+			</div>
+        </div>  
+
+		<script>
+		  (function() {
+			var cx = '018117141476308243130:_jlipw9ljjo';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+
+
+            <div id="mainpart">
+                <div class="sq">                 
+                    <div class="twopart">
+                        <div class="left">												
+							<div class="tage" id="leftb">選單</div>
+							<div class="inpage_menu" id="mm">
+								<h2>診所歷程</h2>
+								<ul>
+									<li><a href="https://www.facebook.com/magictooth.tw/" title="魔法兔">魔法兔</a></li>
+									<li><a href="https://www.facebook.com/daytaiclinic/notifications/" title="德泰診所">德泰診所</a></li>      
+																	</ul>
+								<h3>學習歷程</h3>
+								<ul>
+									<li><a href="https://sls.weco.net/s19-webfund" title="Web Fundamentals">Web Fundamentals</a></li>
+									<li><a href="https://learn.freecodecamp.org" title="freeCodeCamp">freeCodeCamp</a></li>      
+									<li><a href="https://github.com" title="GitHub">GitHub</a></li>
+								
+								</ul>
+								
+							</div>
+                        </div> <!--left-->
+                        <div class="right">
+							<div class="teaminfo">
+                                            <h4>工作經歷</h4>
+                                            <ul>
+
+                                                    <li>
+                                                        <div class="doctor_pic">
+                                                            <img src="https://scontent.ftpe11-2.fna.fbcdn.net/v/t1.0-9/40259631_709132926146404_7267524327749189632_n.jpg?_nc_cat=105&_nc_ht=scontent.ftpe11-2.fna&oh=7d4d1c82c335ceb09508b73e872ba4fa&oe=5D1D5F5B" alt="魔法兔牙科診所">
+
+                                                        </div>
+                                                        <div class="inforight" style="height:auto;">
+                                                            <div class="name">魔法兔牙科診所</div>
+                                                            <h5>主治項目：</h5>
+                                                            <div style="text-align:left;" id="divCHIEF1"> 
+															<ul>
+																<li><span style="font-size:16px"><span style="font-family:Arial,Helvetica,sans-serif">
+																專科：齒顎矯正專科、兒童牙科、牙周病專科</span></span></li>
+																													</ul>
+															</div><!--style id-->
+															<h6>工作內容與學習：</h6>
+                                                            <div style="text-align:left;" id="divCHIEF1"> <ul>
+															<li><span style="font-size:16px"><span style="font-family:Arial,Helvetica,sans-serif">
+															櫃台行政</span></span></li>
+															</div><!--style id-->
+															
+                                                            
+                                                          <div class="butline">
+                                                                    <a class="order_time" href="https://www.facebook.com/magictooth.tw/ ">我要預約</a> 
+                                                                    <a class="#" href="/DoctorCond?STAMPID=00207 ">看診時間查詢</a> 
+                                                            <a class="#" href="https://www.facebook.com/magictooth.tw/">診所簡介</a> </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="doctor_pic">
+                                                            <img src="" alt="德泰診所">
+
+                                                        </div>
+                                                        <div class="inforight" style="height:auto;">
+                                                            <div class="name">德泰診所</div>
+                                                            <h5>主治項目：</h5>
+                                                            <div style="text-align:left;" id="divCHIEF2"> 
+															<ul>
+																<li><span style="font-family:Arial,Helvetica,sans-serif">
+																<span style="font-size:16px">專科：復健科、神經內科</span></span></li>
+																<li><span style="font-family:Arial,Helvetica,sans-serif">
+																<span style="font-size:16px">物理治療、職能治療</span></span></li>
+																<li><span style="font-family:Arial,Helvetica,sans-serif">
+																<span style="font-size:16px">PRP血小板</span></span></li>
+															</ul>
+															</div>
+															<h6>工作內容與學習：</h6>
+																<div style="text-align:left;" id="divCHIEF1"> <ul>
+																<li><span style="font-size:16px"><span style="font-family:Arial,Helvetica,sans-serif">
+																櫃台行政</span></span></li>
+															
+																</div>
+                                                            
+                                                          <div class="butline">
+                                                                    <a class="order_time" href="">我要掛號</a> 
+                                                                    <a class="#" href="">看診時間查詢</a> 
+                                                            <a class="#" href="https://www.facebook.com/daytaiclinic/notifications/">診所簡介</a> </div>
+                                                        </div>
+                                                    </li>                                                  					                                                                                          
+                                            </ul>  
+                            </div>                                                                
+						</div><!--/.work-->
+					</div><!--/.twopart-->
+				</div><!--/.sq-->
+			</div><!--/.mainpart-->
+		</div><!--/.intor-->
+	</div><!--/.wapper-->
+</body>
+</html>
+
+
+ 
