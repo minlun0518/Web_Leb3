@@ -18,43 +18,18 @@ $(document).ready(function(){
   });
 });
 	
-	<!--放大按鈕-->
+	<!--放大按鈕
 	$(document).ready(function(){
   $("button id=b1").click(function(){
-    $("div1").animate({
+    $("div id=d1").animate({
       left: '250px',
       opacity: '0.5',
       height: '150px',
       width: '150px'
     });
   });
-});
-	
-	
-	$(document).ready(function(){
-  $("button2").click(function(){
-    $("div2").animate({
-      left: '250px',
-      opacity: '0.5',
-      height: '150px',
-      width: '150px'
-    });
-  });
-});
-	
-	
-	$(document).ready(function(){
-  $("button3").click(function(){
-    $("div3").animate({
-      left: '250px',
-      opacity: '0.5',
-      height: '150px',
-      width: '150px'
-    });
-  });
-});
-	
-
+});-->
+		
 	</script> 
 
 <!--下拉選單的格式-->
@@ -84,12 +59,12 @@ $(document).ready(function(){
 
  <h1 align="center" ><font style="Comic Sans MS"  color="#483D8B"> 2019~2017 年度學習歷程</font></h1>
 
-	 <button id=b1>2019</button>
+	
 <p align="center">
 	
-	<div href = "2019.html">
+	<a href = "2019.html">
 	<img src = "https://i.ibb.co/nzZ50ZX/Photo-Grid-1552829028122.jpg" width = "150" height = "150" alt = "2019 Page" />
-	</div>
+	</a>
 
  	<a href = "2018.html">
 	<img src = "https://i.ibb.co/MhpdVKV/Photo-Grid-1552829173728.jpg" alt="Photo-Grid-1552829173728"" width = "150" height = "150" alt = "2018 Page" />
@@ -119,7 +94,15 @@ $(document).ready(function(){
 <!--好好玩的按鈕-->						
 <button>不要點我 我會消失 QAQ</button>
 <button>再生氣也不要拿我出氣 QAQ</button>	
-<button>放過我 我很無辜 QAQ</button>						 
-		    
+<button>放過我 我很無辜 QAQ</button>
+<button>受夠了 討厭你 QAQ</button>							 
+<button>放過我 我很無辜 QAQ</button>	
+<button onclick="myFunction()">不理你了</button>
+<script>
+function myFunction() {
+  alert("Hello! 明天期中考呦! 揪咪");
+}
+</script>			      
+			      
 </body>
 </html>
