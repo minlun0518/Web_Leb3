@@ -11,7 +11,7 @@ Released   : 20130919
 
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-	
+
 	
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -157,7 +157,67 @@ Released   : 20130919
 <div id="copyright">
 	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
-	
+
+	  <script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/css3-animate-it.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    
+    <script>
+        $('.lightbox-gallery').magnificPopup({
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1]
+        },
+        image: {
+            titleSrc: 'title',
+            verticalFit: true
+        }
+    });
+    </script>
+<!--
+    <script>
+        $(".img_box").each(function(){
+            var imgH = $(this).children("img").height();
+            var imgW = $(this).children("img").width();
+            if ( (imgW/imgH) >= 4/3 ) { 
+                $(this).addClass("hori_img");
+            } else {
+                $(this).addClass("verti_img");
+            }
+        });
+    </script>
+-->
+    <script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+            $('.gotop').fadeIn();
+        } else {
+            $('.gotop').fadeOut();
+        }
+    });
+    $('.gotop').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+    </script>    
+    <script>
+    $(document).ready(function () {
+    var windowWidth = $(window).width();
+    var theHeight = $("#sidebar").height();
+    if(windowWidth > 767 ){
+        $("#myCarousel").css("height",theHeight);
+    }else{
+        $("#myCarousel").css("height","auto")
+    };   
+    }());
+    </script>
 	
 
 </body>
