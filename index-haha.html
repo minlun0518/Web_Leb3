@@ -52,6 +52,8 @@ Released   : 20130919
 <div id="wrapper3">
 	<div id="wrapper-blog" class="container">
 		<div id="post">
+			<!-- Create an anchor tag -->
+ <a class="top" href="#">Back to top</a>
 			<div class="post"> <span class="date">March 17, 2019</span> <img src="images/img01.jpg" class="image image-full" />
 				<h2>醫學時事-嬰兒枕頭</h2>
 				<p> <a href ="https://youtu.be/rfh5wWKUmHQ"> 蒼藍鴿的醫學天地</a><br>
@@ -217,6 +219,14 @@ Released   : 20130919
         $("#myCarousel").css("height","auto")
     };   
     }());
+	    
+	    // Back to top 
+
+$('a.top').click(function (e) { 
+     e.preventDefault();
+    $(document.body).animate({scrollTop: 0}, 800);
+ });
+
     </script>
 	
 
