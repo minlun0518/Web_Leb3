@@ -164,64 +164,10 @@ Released   : 20130919
 
 	  <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/css3-animate-it.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightbox.js"></script>
-    
+   
+   
     <script>
-        $('.lightbox-gallery').magnificPopup({
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0,1]
-        },
-        image: {
-            titleSrc: 'title',
-            verticalFit: true
-        }
-    });
-    </script>
-<!--
-    <script>
-        $(".img_box").each(function(){
-            var imgH = $(this).children("img").height();
-            var imgW = $(this).children("img").width();
-            if ( (imgW/imgH) >= 4/3 ) { 
-                $(this).addClass("hori_img");
-            } else {
-                $(this).addClass("verti_img");
-            }
-        });
-    </script>
--->
-    <script>
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 300) {
-            $('.gotop').fadeIn();
-        } else {
-            $('.gotop').fadeOut();
-        }
-    });
-    $('.gotop').click(function() {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 800);
-        return false;
-    });
-    </script>    
-    <script>
-    $(document).ready(function () {
-    var windowWidth = $(window).width();
-    var theHeight = $("#sidebar").height();
-    if(windowWidth > 767 ){
-        $("#myCarousel").css("height",theHeight);
-    }else{
-        $("#myCarousel").css("height","auto")
-    };   
-    }());
-	    
+   
 	    // Back to top 
 
 $('a.top').click(function (e) { 
