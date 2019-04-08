@@ -10,10 +10,64 @@ $(document).ready(function(){
     $(this).hide();
   });
 });
+	$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+	
+	
+	
+	$(document).ready(function(){
+  $("button1").click(function(){
+    $("div1").animate({
+      left: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+	
+	
+	$(document).ready(function(){
+  $("button2").click(function(){
+    $("div2").animate({
+      left: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+	
+	
+	$(document).ready(function(){
+  $("button3").click(function(){
+    $("div3").animate({
+      left: '250px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
 	
 
 	</script> 
-	 
+	<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
 
 	 
  <title>年度學習歷程</title>
@@ -24,21 +78,24 @@ $(document).ready(function(){
  <body bgcolor="#FFE4E1">
 
  <h1 align="center" ><font style="Comic Sans MS"  color="#483D8B"> 2019~2017 年度學習歷程</font></h1>
- <p align="center"><a href = "2019.html">
+
+	 <button1>2019</button1><button2>2018</button2><button3>2017</button3>
+<p align="center">
+	<div1 href = "2019.html">
 
 <img src = "https://i.ibb.co/nzZ50ZX/Photo-Grid-1552829028122.jpg" width = "150"
  height = "150" alt = "2019 Page" />
  </a>
 
- <a href = "2018.html">
+ <div2 href = "2018.html">
  <img src = "https://i.ibb.co/MhpdVKV/Photo-Grid-1552829173728.jpg" alt="Photo-Grid-1552829173728"" width = "150"
  height = "150" alt = "2018 Page" />
- </a>
+ </div2>
 
- <a href = "2017.html">
+ <div3 href = "2017.html">
  <img src = "https://i.ibb.co/VSVMPvT/Photo-Grid-1552828934794.jpg" width = "150"
  height = "150" alt = "2017 Page" />
- </a>
+ </div3>
                                  
                               
  </p>
