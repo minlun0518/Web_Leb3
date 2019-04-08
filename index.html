@@ -4,6 +4,8 @@
  <html>
  <head>
  <title>年度學習歷程</title>
+  <!-- Create an anchor tag -->
+ <a class="top" href="#">Back to top</a>
  </head>
 
  <body bgcolor="#FFE4E1">
@@ -44,5 +46,39 @@
                         
                     </a> </p>   -->                           
  
+                     <script>
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 300) {
+            $('.gotop').fadeIn();
+        } else {
+            $('.gotop').fadeOut();
+        }
+    });
+    $('.gotop').click(function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+    </script>    
+    <script>
+    $(document).ready(function () {
+    var windowWidth = $(window).width();
+    var theHeight = $("#sidebar").height();
+    if(windowWidth > 767 ){
+        $("#myCarousel").css("height",theHeight);
+    }else{
+        $("#myCarousel").css("height","auto")
+    };   
+    }());
+	    
+	    // Back to top 
+
+$('a.top').click(function (e) { 
+     e.preventDefault();
+    $(document.body).animate({scrollTop: 0}, 800);
+ });
+
+    </script>
 </body>
 </html>
