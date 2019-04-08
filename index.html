@@ -3,7 +3,15 @@
 
  <html>
  <head>
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(this).hide();
+  });
+});
+</script>
+	 
  <title>年度學習歷程</title>
   <!-- Create an anchor tag -->
  <a class="top" href="#">Back to top</a>
@@ -47,39 +55,7 @@
                         
                     </a> </p>   -->                           
  
-                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 300) {
-            $('.gotop').fadeIn();
-        } else {
-            $('.gotop').fadeOut();
-        }
-    });
-    $('.gotop').click(function() {
-        $('html, body').animate({
-            scrollTop: 0
-        }, 800);
-        return false;
-    });
-    </script>    
-    <script>
-    $(document).ready(function () {
-    var windowWidth = $(window).width();
-    var theHeight = $("#sidebar").height();
-    if(windowWidth > 767 ){
-        $("#myCarousel").css("height",theHeight);
-    }else{
-        $("#myCarousel").css("height","auto")
-    };   
-    }());
-	    
-	    // Back to top 
-
-$('a.top').click(function (e) { 
-     e.preventDefault();
-    $(document.body).animate({scrollTop: 0}, 800);
- });
-
-    </script>
+   <button>不要點我 我會消失 QAQ</button>
+		    
 </body>
 </html>
